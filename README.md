@@ -3,7 +3,7 @@
 
 | author           | Method                               | Clicks per token (dev set) | Clicks per character (dev set) | Clicks per token (test set) | Clicks per character(test set) |
 | ---------------- | ------------------------------------ | -------------------------- | ------------------------------ | --------------------------- | ------------------------------ |
-| nicklogin        | Baseline(Bigrams)                    | 4.2961                     | 0.9962                         | 4.5101                      | 0.9958                         |
+|         | Baseline(Bigrams)                    | 4.2961                     | 0.9962                         | 4.5101                      | 0.9958                         |
 | nicklogin        | MorphLSTM                            | 4.0250                     | 0.9334                         | 4.4612                      | 0.9850                         |
 | nicklogin        | MorphLSTM (with frequency threshold) | 4.0436                     | 0.9377                         | 4.4501                      | 0.9825                         |
 | nicklogin        | CNN1D (token convolution)            | 4.1252                     | 0.9566                         | 4.4583                      | 0.9844                         |
